@@ -1,11 +1,11 @@
-# [HTMLifier](https://sheeptester.github.io/htmlifier/) for Node
+# [Nextify](https://github.com/Cubix/Nextify) for Node
 
-Package a Scratch project inside an HTML file with no optimisations.
-
+Package a SN-Edit project inside an HTML file with no optimisations.
+<!--
 ## Installation
 
 ```sh
-$ npm install @sheeptester/htmlifier
+$ npm install @cubix/nextify
 ```
 
 ## Example usage
