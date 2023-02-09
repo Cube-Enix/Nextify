@@ -6,7 +6,7 @@ declare const dependencies_vm: string | undefined
 declare const dependencies_extensionWorker: string | undefined
 declare const dependencies_template: string | undefined
 
-export const VM_URL = 'https://sheeptester.github.io/scratch-vm/16-9/vm.min.js'
+export const VM_URL = 'https://cube-enix.github.io/sn-edit-vm/vm.min.js'
 
 export const vm =
   typeof dependencies_vm !== 'undefined'
@@ -14,7 +14,7 @@ export const vm =
     : await fetch(VM_URL).then(toText)
 
 export const EXTENSION_WORKER_URL =
-  'https://sheeptester.github.io/scratch-vm/16-9/extension-worker.js'
+  'https://cube-enix.github.io/sn-edit-vm/extension-worker.js'
 
 export const extensionWorker =
   typeof dependencies_extensionWorker !== 'undefined'
