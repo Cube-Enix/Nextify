@@ -1,7 +1,7 @@
 {
-  "name": "@sheeptester/htmlifier",
+  "name": "@cubix/nextify",
   "version": "1.0.3",
-  "description": "Packages a Scratch project in an HTML file with no optimisations.",
+  "description": "Packages a SN-Edit project in an HTML file with no optimisations.",
   "type": "module",
   "main": "index.min.js",
   "scripts": {
@@ -10,18 +10,21 @@
   "keywords": [
     "htmlifier",
     "scratch",
-    "sb3"
+    "sb3",
+    "cubix",
+    "snext",
+    "html"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/SheepTester/htmlifier.git"
+    "url": "https://github.com/Cube-Enix/Nextify.git"
   },
-  "author": "SheepTester",
+  "author": "Cubix",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SheepTester/htmlifier/issues"
+    "url": "https://github.com/Cubix/Nextify/issues"
   },
-  "homepage": "https://sheeptester.github.io/htmlifier/",
+  "homepage": "https://cubix.github.io/",
   "dependencies": {
     "fetch-blob": "^3.1.2",
     "node-fetch": "^2.6.1"
